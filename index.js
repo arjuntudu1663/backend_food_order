@@ -23,7 +23,7 @@ app.use(cors({
 
 //databse connection
 try{
-    mongoose.connect(`${MONGOURI}`)
+    mongoose.connect("mongodb+srv://arjuntudu9163:fv9FIKG1eb8UKcee@cluster0.cq6wv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 }catch(e){
     console.log(e)
 }

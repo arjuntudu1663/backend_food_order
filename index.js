@@ -18,7 +18,7 @@ const menuRoute = require("./routes/menuRoute")
 //middleware
 app.use(express.json());
 app.use(cors({
-    origin:["http://localhost:3000"]
+    origin:["https://fontend-food-order.vercel.app","http://localhost:3000"]
 }))
 
 //databse connection
